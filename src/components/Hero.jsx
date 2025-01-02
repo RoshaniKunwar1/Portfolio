@@ -1,7 +1,7 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/myProfile.jpg';
-// import profilePic from '../assets/kevinRushProfile.png';
+// import profilePic from '../assets/myProfile.jpg';
+import profilePic from '../assets/meHero.jpg';
 import { motion } from "motion/react"
 
 const container = (delay) => ({
@@ -24,7 +24,7 @@ const Hero = () => {
 				</div>
 				<div className="w-full lg:w-1/2 lg:pe-[80px]">
 					<div className="flex justify-center">
-						<motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="profile" className="w-[550px] h-[500px] rounded-full shadow-lg dark:opacity-80" />
+						<motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="profile" className="w-[550px] h-[500px] rounded-full shadow-lg dark:opacity-80 object-cover object-right-center grayscale" />
 					</div>
 				</div>
 			</div>

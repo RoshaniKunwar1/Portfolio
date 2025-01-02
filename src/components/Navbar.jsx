@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub,  FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -14,14 +14,14 @@ const Navbar = () => {
 
   return (
     <nav className="bg-black mb-20 flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
+      <div className="flex flex-shrink-0 items-center lg-w-1/4">
        <p className="font-semibold text-2xl">My_Portfolio</p>
       </div>
 
       <div
         className={`${
-          show ? "flex flex-col items-start m-50" : "hidden"
-        } absolute top-16 left-0 w-full bg-black text-white text-2xl p-4 lg:static lg:flex lg:flex-row lg:items-center lg:gap-4 lg:w-2/4`}
+          show ? "flex flex-col items-start mt-5 pb-96" : "hidden"
+        } absolute top-16 left-0 w-full text-white text-2xl p-4 lg:static lg:flex md:flex-row lg:items-center justify-evenly lg:gap-4 lg:w-2/4`}
       >
         <NavLink to="/" className={({ isActive }) => (isActive ? "text-yellow-500" : "")}>
           Home
