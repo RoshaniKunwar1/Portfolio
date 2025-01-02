@@ -24,7 +24,7 @@ const Hero = () => {
 				</div>
 				<div className="w-full lg:w-1/2 lg:pe-[80px]">
 					<div className="flex justify-center">
-						<motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="profile" className="w-[550px] h-[500px] rounded-full shadow-lg dark:opacity-80 object-cover object-right-center grayscale" />
+						<motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} alt="profile" className="w-[550px] md:h-[500px] md:rounded-full shadow-lg dark:opacity-80 object-cover md:object-right-center grayscale rounded-3xl" />
 					</div>
 				</div>
 			</div>
