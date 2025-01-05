@@ -20,8 +20,8 @@ const Navbar = () => {
 
       <div
         className={`${
-          show ? "flex flex-col items-start mt-5 pb-96" : "hidden"
-        } absolute top-16 left-0 w-full text-white text-2xl p-4 lg:static lg:flex md:flex-row lg:items-center justify-evenly lg:gap-4 lg:w-2/4`}
+          show ? "flex flex-col mt-5 overflow-hidden transition-all" : "hidden"
+        } absolute top-14 items-end pe-[65px] w-full text-white text-lg p-4 lg:static lg:flex md:flex-row lg:items-center  lg:gap-4 lg:w-2/4`}
       >
         <NavLink to="/" className={({ isActive }) => (isActive ? "text-yellow-500" : "")}>
           Home
@@ -61,7 +61,7 @@ const Navbar = () => {
           aria-label="Toggle menu"
           className="text-white text-2xl"
         >
-          <GiHamburgerMenu />
+          <GiHamburgerMenu className={ `${(show ? "animate-bounce transition-all text-yellow-500" : "")}`} />
         </button>
       </div>
     </nav>
