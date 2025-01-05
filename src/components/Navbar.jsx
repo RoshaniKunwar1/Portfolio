@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub,  FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -15,13 +15,12 @@ const Navbar = () => {
   return (
     <nav className="bg-black mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center lg-w-1/4">
-       <p className="font-semibold text-2xl">My_Portfolio</p>
+        <p className="font-semibold text-2xl">My_Portfolio</p>
       </div>
 
       <div
-        className={`${
-          show ? "flex flex-col mt-5 overflow-hidden transition-all" : "hidden"
-        } absolute top-14 items-end pe-[65px] w-full text-white text-lg p-4 lg:static lg:flex md:flex-row lg:items-center  lg:gap-4 lg:w-2/4`}
+        className={`${show ? "flex flex-col mt-5 overflow-hidden transition-all" : "hidden"
+          } absolute top-14 items-end pe-[35px] w-full text-white text-lg p-4 lg:static lg:flex md:flex-row lg:items-center  lg:gap-4 lg:w-2/4`}
       >
         <NavLink to="/" className={({ isActive }) => (isActive ? "text-yellow-500" : "")}>
           Home
@@ -42,7 +41,7 @@ const Navbar = () => {
 
       <div className="m-8 flex items-center justify-center gap-4 text-2xl text-white lg:w-1/4">
         <a href="https://roshaniKunwar4008@gmail.com" target="_blank" rel="noopener noreferrer">
-          <CgMail className="text-3xl"/>
+          <CgMail className="text-3xl" />
         </a>
         <a href="https://www.linkedin.com/in/roshani-kunwar-915809282" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
@@ -61,7 +60,7 @@ const Navbar = () => {
           aria-label="Toggle menu"
           className="text-white text-2xl"
         >
-          <GiHamburgerMenu className={ `${(show ? "animate-bounce transition-all text-yellow-500" : "")}`} />
+          <GiHamburgerMenu className={`${(show ? "animate-bounce transition-all text-yellow-500" : "")}`} />
         </button>
       </div>
     </nav>
