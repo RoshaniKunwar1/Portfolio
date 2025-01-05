@@ -2,6 +2,7 @@ import netflix from "../assets/projects/netflix.jpeg";
 import loanApproval from "../assets/projects/loanApproval.png";
 import ecommerce from "../assets/projects/ecommerce.jpeg";
 import country from "../assets/projects/country.jpeg";
+import ecommerce1 from "../assets/projects/ecommerce1.jpeg";
 import contact from "../assets/projects/contact.jpeg";
 
 export const HERO_CONTENT = `An aspiring Frontend Developer pursuing degree in Information Management. With a solid foundation in HTML, CSS, and Java, constantly expanding my knowledge in web development, learning ReactJS, JavaScript, and Python along the way. familiar with tools like GitHub, MySQL, Bootstrap, and a bit of Tailwind.  Dedicated to learning and improving my skills as well as bring unique ideas and technical skills to dynamic team and gain hands-on experience through practical projects`;
@@ -50,6 +51,13 @@ export const PROJECTS = [
     description:
       "Loan Approval System for a summer project, featuring both client- side and admin - side functionalities",
     technologies: ["HTML", "CSS", "Bootstrap", "Java", "mySQL"],
+  },
+  {
+    title: "Ecommerce Website",
+    image: ecommerce1,
+    description:
+      "E-commerce website with all functionalities like add to cart, payment and all other frontend functionalities",
+    technologies: ["HTML", "CSS", "Tailwind", "React"],
   },
   {
     title: "Ecommerce website",
