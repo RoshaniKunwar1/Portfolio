@@ -4,6 +4,8 @@ import ecommerce from "../assets/projects/ecommerce.jpeg";
 import country from "../assets/projects/country.jpeg";
 import ecommerce1 from "../assets/projects/ecommerce1.jpeg";
 import contact from "../assets/projects/contact.jpeg";
+import coffeePage from "../assets/projects/cofeePage.jpeg";
+
 
 export const HERO_CONTENT = `An aspiring Frontend Developer pursuing degree in Information Management. With a solid foundation in HTML, CSS, and Java, constantly expanding my knowledge in web development, learning ReactJS, JavaScript, and Python along the way. familiar with tools like GitHub, MySQL, Bootstrap, and a bit of Tailwind.  Dedicated to learning and improving my skills as well as bring unique ideas and technical skills to dynamic team and gain hands-on experience through practical projects`;
 
@@ -46,11 +48,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind", "Firebase"],
   },
   {
-    title: "Loan Approval System",
-    image: loanApproval,
+    title: "Coffee Shop Website",
+    image: coffeePage,
     description:
-      "Loan Approval System for a summer project, featuring both client- side and admin - side functionalities",
-    technologies: ["HTML", "CSS", "Bootstrap", "Java", "mySQL"],
+      "Built a fully responsive website using React, featuring a modern, user-friendly interface with smooth animations and pixel-perfect designs optimized for all devices.",
+    technologies: ["HTML", "CSS", "Tailwind",'Framer Motion', "React"],
   },
   {
     title: "Ecommerce Website",
@@ -65,6 +67,13 @@ export const PROJECTS = [
     description:
       "A full-stack e-commerce website, integrated with esewa for secure payment processing(testing) in wordpress.",
     technologies: ["Wordpress"],
+  },
+  {
+    title: "Loan Approval System",
+    image: loanApproval,
+    description:
+      "Loan Approval System for a summer project, featuring both client- side and admin - side functionalities",
+    technologies: ["HTML", "CSS", "Bootstrap", "Java", "mySQL"],
   },
 ];
 
