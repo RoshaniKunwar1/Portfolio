@@ -52,7 +52,7 @@ export const PROJECTS = [
     image: coffeePage,
     description:
       "Built a fully responsive website using React, featuring a modern, user-friendly interface with smooth animations and pixel-perfect designs optimized for all devices.",
-    technologies: ["HTML", "CSS", "Tailwind",'Framer Motion', "React"],
+    technologies: [ "Tailwind",'Framer Motion', "React"],
   },
   {
     title: "Ecommerce Website",
