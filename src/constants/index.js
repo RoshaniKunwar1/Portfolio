@@ -31,21 +31,21 @@ export const PROJECTS = [
     image: country,
     description:
       "A fully functional React.js-based country information app, enabling users to search for and view detailed information about any country, including filtering by region and is hosted on Netlify for seamless accessibility.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS","React"],
   },
   {
     title: "Netflix-clone",
     image: netflix,
     description:
       "An React.js-based Netflix-clone website, integrating firebase for secure authentication functionalities.",
-    technologies: ["HTML", "CSS", "React", "Firebase"],
+    technologies: [ "React", "Firebase"],
   },
   {
     title: "Contact Management App",
     image: contact,
     description:
       "A fully functional React.js-based contract management app, enabling contract creation and storage in Firebase for real - time data synchronization.",
-    technologies: ["HTML", "CSS", "React", "Tailwind", "Firebase"],
+    technologies: ["React", "Tailwind", "Firebase"],
   },
   {
     title: "Coffee Shop Website",
@@ -59,7 +59,7 @@ export const PROJECTS = [
     image: ecommerce1,
     description:
       "E-commerce website with all functionalities like add to cart, payment and all other frontend functionalities",
-    technologies: ["HTML", "CSS", "Tailwind", "React"],
+    technologies: ["Tailwind", "React"],
   },
   {
     title: "Ecommerce website",
@@ -73,7 +73,7 @@ export const PROJECTS = [
     image: loanApproval,
     description:
       "Loan Approval System for a summer project, featuring both client- side and admin - side functionalities",
-    technologies: ["HTML", "CSS", "Bootstrap", "Java", "mySQL"],
+    technologies: [ "Bootstrap", "Java", "mySQL"],
   },
 ];
 
